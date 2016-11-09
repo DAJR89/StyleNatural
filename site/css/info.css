@@ -1,0 +1,34 @@
+#info{
+	background: #333;
+	color:#fff;
+	text-align: center;
+}
+
+#info .contenedor{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+.info-from{
+	margin:20px;
+}
+
+.info-from img{
+	width: 180px;
+	height: 180PX;
+	border-radius:50%;
+	border: 7px solid #fff;
+}
+
+@media(min-width:480px){
+	.info-from{
+		width:40%;
+	}
+}
+
+@media(min-width:1024px){
+	.info-from{
+		width:auto;
+	}
+}
